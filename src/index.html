@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu aniversario</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            
+            <p class="hero__text">
+                O dia mais especial sera em  <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        15/10/2023 às 19hrs
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Conto com a sua presença</b>
+                        Confirme no botao ao lado ----->
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirme sua presença
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--minhaFoto">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Como sera a festa?</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid maiores vel alias obcaecati quidem eaque consectetur non distinctio, molestiae labore reprehenderit? Amet culpa facere iure autem atque unde quos sequi.
+                </p>
+            </div>
+            <img class="event__image" src="./images/Minha_foto.jpeg" alt="Minha foto">
+        </div>
+    </section>
+    <section class="event event--salao event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Qual sera o salao</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid maiores vel alias obcaecati quidem eaque consectetur non distinctio, molestiae labore reprehenderit? Amet culpa facere iure autem atque unde quos sequi.
+                </p>
+            </div>
+            <img class="event__image" src="./images/concert-2119610_1280.jpg" alt="UI/UX">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
